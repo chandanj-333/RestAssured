@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "tokenId": {
+      "type": "string"
+    },
+    "nickName": {
+      "type": "string"
+    },
+    "emailId": {
+      "type": "string"
+    },
+    "eaAssociations": {
+      "type": "array",
+      "items": {}
+    },
+    "tokenRenewThreshold": {
+      "type": "string"
+    },
+    "tokenLeaseTime": {
+      "type": "string"
+    },
+    "respCode": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "tokenId",
+    "nickName",
+    "emailId",
+    "eaAssociations",
+    "tokenRenewThreshold",
+    "tokenLeaseTime",
+    "respCode",
+    "status"
+  ]
+}
